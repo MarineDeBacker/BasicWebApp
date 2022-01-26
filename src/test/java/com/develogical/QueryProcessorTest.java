@@ -33,7 +33,7 @@ public class QueryProcessorTest {
     
     @Test
     public void knowsAboutWicked() throws Exception {
-        assertThat(queryProcessor.process("Wicked"),
+        assertThat(queryProcessor.process("wicked"),
                 containsString("musical"));
     }
     
