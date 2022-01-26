@@ -13,7 +13,7 @@ public class QueryProcessor {
             return "Imperial College is a great university in London";
         }
         
-        if (query.toLowerCase().contains("Wicked")) {
+        if (query.toLowerCase().contains("wicked")) {
             return "Wicked is a great musical";
         }
         
