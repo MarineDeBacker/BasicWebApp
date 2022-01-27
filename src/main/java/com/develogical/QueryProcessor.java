@@ -17,6 +17,10 @@ public class QueryProcessor {
             return "Wicked is a great musical";
         }
         
+        if (query.toLowerCase().contains("what is your name?")) {
+            return "Marine";
+        }
+        
         
         return "";
     }

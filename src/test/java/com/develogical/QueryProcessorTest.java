@@ -37,4 +37,10 @@ public class QueryProcessorTest {
                 containsString("musical"));
     }
     
+    @Test
+    public void knowsMyName() throws Exception {
+        assertThat(queryProcessor.process("what is your name?"),
+                containsString("marine"));
+    }
+    
 }
